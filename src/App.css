@@ -12,7 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.stepper {
+  padding: 3vh 0 !important;
+}
 
+.stepper__step {
+  border: 1px solid #2b7cff !important;
+  cursor: default !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

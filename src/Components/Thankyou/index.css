@@ -1,0 +1,40 @@
+.top-container {
+  padding: 20px;
+  background-color: antiquewhite;
+}
+.stepper-container {
+  padding: 20px;
+  background-color: aliceblue;
+  width: 100%;
+}
+.data-color {
+  color: green;
+}
+
+@media (max-width: 520px) {
+  .data-color {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 10px;
+  }
+}
+.name-value {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+}
+.stepper {
+  height: 25vh;
+}
+
+.stepper-step {
+  width: 100%;
+}
+.stepper__step {
+  border: 1px solid #2b7cff !important;
+  cursor: default !important;
+  padding: 13px;
+  border-radius:120px;
+}
+
